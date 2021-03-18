@@ -1,0 +1,2 @@
+iqn-s0, 0
+run-iqn.sh: line 22: ne: command not found

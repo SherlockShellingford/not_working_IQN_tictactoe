@@ -1,0 +1,1471 @@
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/utils.py:34: The name tf.gfile.Open is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/utils.py:34: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/utils.py:43: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From ../../dopamine/agents/dqn/dqn_agent.py:102: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From ../../dopamine/agents/rainbow/rainbow_agent.py:84: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From train.py:57: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0114 19:25:35.381242 140220355954496 module_wrapper.py:139] From train.py:57: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+WARNING:tensorflow:From train.py:57: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0114 19:25:35.381937 140220355954496 module_wrapper.py:139] From train.py:57: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:32: The name tf.train.exponential_decay is deprecated. Please use tf.compat.v1.train.exponential_decay instead.
+
+W0114 19:25:35.406548 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:32: The name tf.train.exponential_decay is deprecated. Please use tf.compat.v1.train.exponential_decay instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:33: The name tf.train.inverse_time_decay is deprecated. Please use tf.compat.v1.train.inverse_time_decay instead.
+
+W0114 19:25:35.407297 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:33: The name tf.train.inverse_time_decay is deprecated. Please use tf.compat.v1.train.inverse_time_decay instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:34: The name tf.train.natural_exp_decay is deprecated. Please use tf.compat.v1.train.natural_exp_decay instead.
+
+W0114 19:25:35.407909 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:34: The name tf.train.natural_exp_decay is deprecated. Please use tf.compat.v1.train.natural_exp_decay instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:35: The name tf.train.polynomial_decay is deprecated. Please use tf.compat.v1.train.polynomial_decay instead.
+
+W0114 19:25:35.408461 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:35: The name tf.train.polynomial_decay is deprecated. Please use tf.compat.v1.train.polynomial_decay instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:39: The name tf.train.piecewise_constant is deprecated. Please use tf.compat.v1.train.piecewise_constant instead.
+
+W0114 19:25:35.409009 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:39: The name tf.train.piecewise_constant is deprecated. Please use tf.compat.v1.train.piecewise_constant instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:48: The name tf.losses.absolute_difference is deprecated. Please use tf.compat.v1.losses.absolute_difference instead.
+
+W0114 19:25:35.409645 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:48: The name tf.losses.absolute_difference is deprecated. Please use tf.compat.v1.losses.absolute_difference instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:50: The name tf.losses.hinge_loss is deprecated. Please use tf.compat.v1.losses.hinge_loss instead.
+
+W0114 19:25:35.410315 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:50: The name tf.losses.hinge_loss is deprecated. Please use tf.compat.v1.losses.hinge_loss instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:51: The name tf.losses.huber_loss is deprecated. Please use tf.compat.v1.losses.huber_loss instead.
+
+W0114 19:25:35.410960 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:51: The name tf.losses.huber_loss is deprecated. Please use tf.compat.v1.losses.huber_loss instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:52: The name tf.losses.log_loss is deprecated. Please use tf.compat.v1.losses.log_loss instead.
+
+W0114 19:25:35.411702 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:52: The name tf.losses.log_loss is deprecated. Please use tf.compat.v1.losses.log_loss instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:54: The name tf.losses.mean_pairwise_squared_error is deprecated. Please use tf.compat.v1.losses.mean_pairwise_squared_error instead.
+
+W0114 19:25:35.412492 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:54: The name tf.losses.mean_pairwise_squared_error is deprecated. Please use tf.compat.v1.losses.mean_pairwise_squared_error instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:55: The name tf.losses.mean_squared_error is deprecated. Please use tf.compat.v1.losses.mean_squared_error instead.
+
+W0114 19:25:35.413123 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:55: The name tf.losses.mean_squared_error is deprecated. Please use tf.compat.v1.losses.mean_squared_error instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:57: The name tf.losses.sigmoid_cross_entropy is deprecated. Please use tf.compat.v1.losses.sigmoid_cross_entropy instead.
+
+W0114 19:25:35.413830 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:57: The name tf.losses.sigmoid_cross_entropy is deprecated. Please use tf.compat.v1.losses.sigmoid_cross_entropy instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:59: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+W0114 19:25:35.414659 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:59: The name tf.losses.softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:61: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+W0114 19:25:35.415270 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:61: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:67: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+W0114 19:25:35.415940 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:67: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:68: The name tf.train.AdadeltaOptimizer is deprecated. Please use tf.compat.v1.train.AdadeltaOptimizer instead.
+
+W0114 19:25:35.416900 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:68: The name tf.train.AdadeltaOptimizer is deprecated. Please use tf.compat.v1.train.AdadeltaOptimizer instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:69: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+W0114 19:25:35.417554 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:69: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:70: The name tf.train.AdagradDAOptimizer is deprecated. Please use tf.compat.v1.train.AdagradDAOptimizer instead.
+
+W0114 19:25:35.418178 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:70: The name tf.train.AdagradDAOptimizer is deprecated. Please use tf.compat.v1.train.AdagradDAOptimizer instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:71: The name tf.train.MomentumOptimizer is deprecated. Please use tf.compat.v1.train.MomentumOptimizer instead.
+
+W0114 19:25:35.418806 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:71: The name tf.train.MomentumOptimizer is deprecated. Please use tf.compat.v1.train.MomentumOptimizer instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:73: The name tf.train.FtrlOptimizer is deprecated. Please use tf.compat.v1.train.FtrlOptimizer instead.
+
+W0114 19:25:35.419630 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:73: The name tf.train.FtrlOptimizer is deprecated. Please use tf.compat.v1.train.FtrlOptimizer instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:75: The name tf.train.ProximalGradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.ProximalGradientDescentOptimizer instead.
+
+W0114 19:25:35.420287 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:75: The name tf.train.ProximalGradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.ProximalGradientDescentOptimizer instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:77: The name tf.train.ProximalAdagradOptimizer is deprecated. Please use tf.compat.v1.train.ProximalAdagradOptimizer instead.
+
+W0114 19:25:35.420903 140220355954496 module_wrapper.py:139] From /home/miraizura/.local/lib/python3.6/site-packages/gin/tf/external_configurables.py:77: The name tf.train.ProximalAdagradOptimizer is deprecated. Please use tf.compat.v1.train.ProximalAdagradOptimizer instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/logger.py:48: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+W0114 19:25:35.452346 140220355954496 module_wrapper.py:139] From ../../dopamine/discrete_domains/logger.py:48: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/run_experiment.py:194: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+W0114 19:25:35.453192 140220355954496 module_wrapper.py:139] From ../../dopamine/discrete_domains/run_experiment.py:194: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/run_experiment.py:203: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0114 19:25:35.771837 140220355954496 module_wrapper.py:139] From ../../dopamine/discrete_domains/run_experiment.py:203: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/run_experiment.py:203: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+W0114 19:25:35.772100 140220355954496 module_wrapper.py:139] From ../../dopamine/discrete_domains/run_experiment.py:203: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/run_experiment.py:203: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+W0114 19:25:35.772237 140220355954496 module_wrapper.py:139] From ../../dopamine/discrete_domains/run_experiment.py:203: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+2021-01-14 19:25:35.772808: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2021-01-14 19:25:35.779430: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1999965000 Hz
+2021-01-14 19:25:35.779868: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5ab9280 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-01-14 19:25:35.779891: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-01-14 19:25:35.822783: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-01-14 19:25:35.899515: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2021-01-14 19:25:35.899648: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (miraizura-ThinkPad-E580): /proc/driver/nvidia/version does not exist
+WARNING:tensorflow:From ../../dopamine/agents/dqn/dqn_agent.py:150: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0114 19:25:35.939313 140220355954496 module_wrapper.py:139] From ../../dopamine/agents/dqn/dqn_agent.py:150: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:Creating FQFAgent agent with the following parameters:
+I0114 19:25:35.939908 140220355954496 dqn_agent.py:151] Creating FQFAgent agent with the following parameters:
+INFO:tensorflow:	 gamma: 0.990000
+I0114 19:25:35.941446 140220355954496 dqn_agent.py:152] 	 gamma: 0.990000
+INFO:tensorflow:	 update_horizon: 1.000000
+I0114 19:25:35.941761 140220355954496 dqn_agent.py:153] 	 update_horizon: 1.000000
+INFO:tensorflow:	 min_replay_history: 50000
+I0114 19:25:35.942070 140220355954496 dqn_agent.py:154] 	 min_replay_history: 50000
+INFO:tensorflow:	 update_period: 4
+I0114 19:25:35.942375 140220355954496 dqn_agent.py:155] 	 update_period: 4
+INFO:tensorflow:	 target_update_period: 10000
+I0114 19:25:35.942806 140220355954496 dqn_agent.py:156] 	 target_update_period: 10000
+INFO:tensorflow:	 epsilon_train: 0.010000
+I0114 19:25:35.943135 140220355954496 dqn_agent.py:157] 	 epsilon_train: 0.010000
+INFO:tensorflow:	 epsilon_eval: 0.001000
+I0114 19:25:35.943529 140220355954496 dqn_agent.py:158] 	 epsilon_eval: 0.001000
+INFO:tensorflow:	 epsilon_decay_period: 1000000
+I0114 19:25:35.943965 140220355954496 dqn_agent.py:159] 	 epsilon_decay_period: 1000000
+INFO:tensorflow:	 tf_device: /gpu:0
+I0114 19:25:35.944391 140220355954496 dqn_agent.py:160] 	 tf_device: /gpu:0
+INFO:tensorflow:	 use_staging: True
+I0114 19:25:35.944877 140220355954496 dqn_agent.py:161] 	 use_staging: True
+INFO:tensorflow:	 optimizer: <tensorflow.python.training.adam.AdamOptimizer object at 0x7f86e7b45518>
+I0114 19:25:35.945315 140220355954496 dqn_agent.py:162] 	 optimizer: <tensorflow.python.training.adam.AdamOptimizer object at 0x7f86e7b45518>
+WARNING:tensorflow:From ../../dopamine/agents/dqn/dqn_agent.py:199: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0114 19:25:35.948686 140220355954496 module_wrapper.py:139] From ../../dopamine/agents/dqn/dqn_agent.py:199: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+INFO:tensorflow:Creating a OutOfGraphPrioritizedReplayBuffer replay memory with the following parameters:
+I0114 19:25:35.953882 140220355954496 circular_replay_buffer.py:146] Creating a OutOfGraphPrioritizedReplayBuffer replay memory with the following parameters:
+INFO:tensorflow:	 observation_shape: (84, 84)
+I0114 19:25:35.954455 140220355954496 circular_replay_buffer.py:147] 	 observation_shape: (84, 84)
+INFO:tensorflow:	 observation_dtype: <class 'numpy.uint8'>
+I0114 19:25:35.954783 140220355954496 circular_replay_buffer.py:148] 	 observation_dtype: <class 'numpy.uint8'>
+INFO:tensorflow:	 stack_size: 4
+I0114 19:25:35.955039 140220355954496 circular_replay_buffer.py:149] 	 stack_size: 4
+INFO:tensorflow:	 replay_capacity: 1000000
+I0114 19:25:35.955280 140220355954496 circular_replay_buffer.py:150] 	 replay_capacity: 1000000
+INFO:tensorflow:	 batch_size: 32
+I0114 19:25:35.955510 140220355954496 circular_replay_buffer.py:151] 	 batch_size: 32
+INFO:tensorflow:	 update_horizon: 1
+I0114 19:25:35.955764 140220355954496 circular_replay_buffer.py:152] 	 update_horizon: 1
+INFO:tensorflow:	 gamma: 0.990000
+I0114 19:25:35.956015 140220355954496 circular_replay_buffer.py:153] 	 gamma: 0.990000
+WARNING:tensorflow:From ../../dopamine/replay_memory/circular_replay_buffer.py:790: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+W0114 19:25:35.959979 140220355954496 deprecation.py:323] From ../../dopamine/replay_memory/circular_replay_buffer.py:790: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING:tensorflow:From ../../dopamine/agents/fqf/fqf_agent.py:171: The name tf.make_template is deprecated. Please use tf.compat.v1.make_template instead.
+
+W0114 19:25:36.009494 140220355954496 module_wrapper.py:139] From ../../dopamine/agents/fqf/fqf_agent.py:171: The name tf.make_template is deprecated. Please use tf.compat.v1.make_template instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/atari_lib.py:224: div (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Deprecated in favor of operator or tf.math.divide.
+W0114 19:25:36.085401 140220355954496 deprecation.py:323] From ../../dopamine/discrete_domains/atari_lib.py:224: div (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Deprecated in favor of operator or tf.math.divide.
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1057: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+W0114 19:25:36.093304 140220355954496 deprecation.py:323] From /home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1057: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+W0114 19:25:36.334822 140220355954496 deprecation.py:323] From /home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From ../../dopamine/agents/fqf/fqf_agent.py:241: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0114 19:25:36.987846 140220355954496 deprecation.py:323] From ../../dopamine/agents/fqf/fqf_agent.py:241: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From ../../dopamine/agents/fqf/fqf_agent.py:388: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+W0114 19:25:37.421598 140220355954496 module_wrapper.py:139] From ../../dopamine/agents/fqf/fqf_agent.py:388: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+WARNING:tensorflow:From ../../dopamine/agents/fqf/fqf_agent.py:399: The name tf.log is deprecated. Please use tf.math.log instead.
+
+W0114 19:25:37.424813 140220355954496 module_wrapper.py:139] From ../../dopamine/agents/fqf/fqf_agent.py:399: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0114 19:25:37.753603 140220355954496 deprecation.py:323] From /home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/training/rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0114 19:25:38.288956 140220355954496 deprecation.py:506] From /home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/training/rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From ../../dopamine/agents/dqn/dqn_agent.py:352: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+W0114 19:25:38.339928 140220355954496 module_wrapper.py:139] From ../../dopamine/agents/dqn/dqn_agent.py:352: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From ../../dopamine/agents/dqn/dqn_agent.py:353: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+W0114 19:25:38.340234 140220355954496 module_wrapper.py:139] From ../../dopamine/agents/dqn/dqn_agent.py:353: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From ../../dopamine/agents/dqn/dqn_agent.py:212: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+W0114 19:25:38.352173 140220355954496 module_wrapper.py:139] From ../../dopamine/agents/dqn/dqn_agent.py:212: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2021-01-14 19:25:38.522165: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+ApplyAdam: CPU 
+RandomUniform: CPU XLA_CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/Conv/weights/Initializer/random_uniform/shape (Const) 
+  Online/Conv/weights/Initializer/random_uniform/min (Const) 
+  Online/Conv/weights/Initializer/random_uniform/max (Const) 
+  Online/Conv/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Online/Conv/weights/Initializer/random_uniform/sub (Sub) 
+  Online/Conv/weights/Initializer/random_uniform/mul (Mul) 
+  Online/Conv/weights/Initializer/random_uniform (Add) 
+  Online/Conv/weights (VariableV2) /device:GPU:0
+  Online/Conv/weights/Assign (Assign) /device:GPU:0
+  Online/Conv/weights/read (Identity) /device:GPU:0
+  Online/Conv/weights/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/Conv/weights/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/Conv/weights/Adam/Initializer/zeros (Fill) /device:GPU:0
+  Online/Conv/weights/Adam (VariableV2) /device:GPU:0
+  Online/Conv/weights/Adam/Assign (Assign) /device:GPU:0
+  Online/Conv/weights/Adam/read (Identity) /device:GPU:0
+  Online/Conv/weights/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/Conv/weights/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/Conv/weights/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  Online/Conv/weights/Adam_1 (VariableV2) /device:GPU:0
+  Online/Conv/weights/Adam_1/Assign (Assign) /device:GPU:0
+  Online/Conv/weights/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_Online/Conv/weights/ApplyAdam (ApplyAdam) /device:GPU:0
+  save/Assign_3 (Assign) /device:GPU:0
+  save/Assign_4 (Assign) /device:GPU:0
+  save/Assign_5 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.522442: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Mul: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/Conv/biases/Initializer/zeros (Const) 
+  Online/Conv/biases (VariableV2) /device:GPU:0
+  Online/Conv/biases/Assign (Assign) /device:GPU:0
+  Online/Conv/biases/read (Identity) /device:GPU:0
+  beta1_power/initial_value (Const) /device:GPU:0
+  beta1_power (VariableV2) /device:GPU:0
+  beta1_power/Assign (Assign) /device:GPU:0
+  beta1_power/read (Identity) /device:GPU:0
+  beta2_power/initial_value (Const) /device:GPU:0
+  beta2_power (VariableV2) /device:GPU:0
+  beta2_power/Assign (Assign) /device:GPU:0
+  beta2_power/read (Identity) /device:GPU:0
+  Online/Conv/biases/Adam/Initializer/zeros (Const) /device:GPU:0
+  Online/Conv/biases/Adam (VariableV2) /device:GPU:0
+  Online/Conv/biases/Adam/Assign (Assign) /device:GPU:0
+  Online/Conv/biases/Adam/read (Identity) /device:GPU:0
+  Online/Conv/biases/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  Online/Conv/biases/Adam_1 (VariableV2) /device:GPU:0
+  Online/Conv/biases/Adam_1/Assign (Assign) /device:GPU:0
+  Online/Conv/biases/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_Online/Conv/biases/ApplyAdam (ApplyAdam) /device:GPU:0
+  Adam/mul (Mul) /device:GPU:0
+  Adam/Assign (Assign) /device:GPU:0
+  Adam/mul_1 (Mul) /device:GPU:0
+  Adam/Assign_1 (Assign) /device:GPU:0
+  save/Assign (Assign) /device:GPU:0
+  save/Assign_1 (Assign) /device:GPU:0
+  save/Assign_2 (Assign) /device:GPU:0
+  save/Assign_62 (Assign) /device:GPU:0
+  save/Assign_63 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.522591: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+ApplyAdam: CPU 
+RandomUniform: CPU XLA_CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/Conv_1/weights/Initializer/random_uniform/shape (Const) 
+  Online/Conv_1/weights/Initializer/random_uniform/min (Const) 
+  Online/Conv_1/weights/Initializer/random_uniform/max (Const) 
+  Online/Conv_1/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Online/Conv_1/weights/Initializer/random_uniform/sub (Sub) 
+  Online/Conv_1/weights/Initializer/random_uniform/mul (Mul) 
+  Online/Conv_1/weights/Initializer/random_uniform (Add) 
+  Online/Conv_1/weights (VariableV2) /device:GPU:0
+  Online/Conv_1/weights/Assign (Assign) /device:GPU:0
+  Online/Conv_1/weights/read (Identity) /device:GPU:0
+  Online/Conv_1/weights/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/Conv_1/weights/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/Conv_1/weights/Adam/Initializer/zeros (Fill) /device:GPU:0
+  Online/Conv_1/weights/Adam (VariableV2) /device:GPU:0
+  Online/Conv_1/weights/Adam/Assign (Assign) /device:GPU:0
+  Online/Conv_1/weights/Adam/read (Identity) /device:GPU:0
+  Online/Conv_1/weights/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/Conv_1/weights/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/Conv_1/weights/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  Online/Conv_1/weights/Adam_1 (VariableV2) /device:GPU:0
+  Online/Conv_1/weights/Adam_1/Assign (Assign) /device:GPU:0
+  Online/Conv_1/weights/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_Online/Conv_1/weights/ApplyAdam (ApplyAdam) /device:GPU:0
+  save/Assign_9 (Assign) /device:GPU:0
+  save/Assign_10 (Assign) /device:GPU:0
+  save/Assign_11 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.522690: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/Conv_1/biases/Initializer/zeros (Const) 
+  Online/Conv_1/biases (VariableV2) /device:GPU:0
+  Online/Conv_1/biases/Assign (Assign) /device:GPU:0
+  Online/Conv_1/biases/read (Identity) /device:GPU:0
+  Online/Conv_1/biases/Adam/Initializer/zeros (Const) /device:GPU:0
+  Online/Conv_1/biases/Adam (VariableV2) /device:GPU:0
+  Online/Conv_1/biases/Adam/Assign (Assign) /device:GPU:0
+  Online/Conv_1/biases/Adam/read (Identity) /device:GPU:0
+  Online/Conv_1/biases/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  Online/Conv_1/biases/Adam_1 (VariableV2) /device:GPU:0
+  Online/Conv_1/biases/Adam_1/Assign (Assign) /device:GPU:0
+  Online/Conv_1/biases/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_Online/Conv_1/biases/ApplyAdam (ApplyAdam) /device:GPU:0
+  save/Assign_6 (Assign) /device:GPU:0
+  save/Assign_7 (Assign) /device:GPU:0
+  save/Assign_8 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.522815: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+ApplyAdam: CPU 
+RandomUniform: CPU XLA_CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/Conv_2/weights/Initializer/random_uniform/shape (Const) 
+  Online/Conv_2/weights/Initializer/random_uniform/min (Const) 
+  Online/Conv_2/weights/Initializer/random_uniform/max (Const) 
+  Online/Conv_2/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Online/Conv_2/weights/Initializer/random_uniform/sub (Sub) 
+  Online/Conv_2/weights/Initializer/random_uniform/mul (Mul) 
+  Online/Conv_2/weights/Initializer/random_uniform (Add) 
+  Online/Conv_2/weights (VariableV2) /device:GPU:0
+  Online/Conv_2/weights/Assign (Assign) /device:GPU:0
+  Online/Conv_2/weights/read (Identity) /device:GPU:0
+  Online/Conv_2/weights/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/Conv_2/weights/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/Conv_2/weights/Adam/Initializer/zeros (Fill) /device:GPU:0
+  Online/Conv_2/weights/Adam (VariableV2) /device:GPU:0
+  Online/Conv_2/weights/Adam/Assign (Assign) /device:GPU:0
+  Online/Conv_2/weights/Adam/read (Identity) /device:GPU:0
+  Online/Conv_2/weights/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/Conv_2/weights/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/Conv_2/weights/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  Online/Conv_2/weights/Adam_1 (VariableV2) /device:GPU:0
+  Online/Conv_2/weights/Adam_1/Assign (Assign) /device:GPU:0
+  Online/Conv_2/weights/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_Online/Conv_2/weights/ApplyAdam (ApplyAdam) /device:GPU:0
+  save/Assign_15 (Assign) /device:GPU:0
+  save/Assign_16 (Assign) /device:GPU:0
+  save/Assign_17 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.522908: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/Conv_2/biases/Initializer/zeros (Const) 
+  Online/Conv_2/biases (VariableV2) /device:GPU:0
+  Online/Conv_2/biases/Assign (Assign) /device:GPU:0
+  Online/Conv_2/biases/read (Identity) /device:GPU:0
+  Online/Conv_2/biases/Adam/Initializer/zeros (Const) /device:GPU:0
+  Online/Conv_2/biases/Adam (VariableV2) /device:GPU:0
+  Online/Conv_2/biases/Adam/Assign (Assign) /device:GPU:0
+  Online/Conv_2/biases/Adam/read (Identity) /device:GPU:0
+  Online/Conv_2/biases/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  Online/Conv_2/biases/Adam_1 (VariableV2) /device:GPU:0
+  Online/Conv_2/biases/Adam_1/Assign (Assign) /device:GPU:0
+  Online/Conv_2/biases/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_Online/Conv_2/biases/ApplyAdam (ApplyAdam) /device:GPU:0
+  save/Assign_12 (Assign) /device:GPU:0
+  save/Assign_13 (Assign) /device:GPU:0
+  save/Assign_14 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.523096: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+RandomUniform: CPU XLA_CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+ApplyCenteredRMSProp: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/fqf/weights/Initializer/random_uniform/shape (Const) 
+  Online/fqf/weights/Initializer/random_uniform/min (Const) 
+  Online/fqf/weights/Initializer/random_uniform/max (Const) 
+  Online/fqf/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Online/fqf/weights/Initializer/random_uniform/sub (Sub) 
+  Online/fqf/weights/Initializer/random_uniform/mul (Mul) 
+  Online/fqf/weights/Initializer/random_uniform (Add) 
+  Online/fqf/weights (VariableV2) /device:GPU:0
+  Online/fqf/weights/Assign (Assign) /device:GPU:0
+  Online/fqf/weights/read (Identity) /device:GPU:0
+  Online/fqf/weights/RMSProp/Initializer/ones/shape_as_tensor (Const) /device:GPU:0
+  Online/fqf/weights/RMSProp/Initializer/ones/Const (Const) /device:GPU:0
+  Online/fqf/weights/RMSProp/Initializer/ones (Fill) /device:GPU:0
+  Online/fqf/weights/RMSProp (VariableV2) /device:GPU:0
+  Online/fqf/weights/RMSProp/Assign (Assign) /device:GPU:0
+  Online/fqf/weights/RMSProp/read (Identity) /device:GPU:0
+  Online/fqf/weights/RMSProp_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/fqf/weights/RMSProp_1/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/fqf/weights/RMSProp_1/Initializer/zeros (Fill) /device:GPU:0
+  Online/fqf/weights/RMSProp_1 (VariableV2) /device:GPU:0
+  Online/fqf/weights/RMSProp_1/Assign (Assign) /device:GPU:0
+  Online/fqf/weights/RMSProp_1/read (Identity) /device:GPU:0
+  Online/fqf/weights/RMSProp_2/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/fqf/weights/RMSProp_2/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/fqf/weights/RMSProp_2/Initializer/zeros (Fill) /device:GPU:0
+  Online/fqf/weights/RMSProp_2 (VariableV2) /device:GPU:0
+  Online/fqf/weights/RMSProp_2/Assign (Assign) /device:GPU:0
+  Online/fqf/weights/RMSProp_2/read (Identity) /device:GPU:0
+  RMSProp/update_Online/fqf/weights/ApplyCenteredRMSProp (ApplyCenteredRMSProp) /device:GPU:0
+  save/Assign_22 (Assign) /device:GPU:0
+  save/Assign_23 (Assign) /device:GPU:0
+  save/Assign_24 (Assign) /device:GPU:0
+  save/Assign_25 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.523202: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyCenteredRMSProp: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/fqf/biases/Initializer/zeros (Const) 
+  Online/fqf/biases (VariableV2) /device:GPU:0
+  Online/fqf/biases/Assign (Assign) /device:GPU:0
+  Online/fqf/biases/read (Identity) /device:GPU:0
+  Online/fqf/biases/RMSProp/Initializer/ones (Const) /device:GPU:0
+  Online/fqf/biases/RMSProp (VariableV2) /device:GPU:0
+  Online/fqf/biases/RMSProp/Assign (Assign) /device:GPU:0
+  Online/fqf/biases/RMSProp/read (Identity) /device:GPU:0
+  Online/fqf/biases/RMSProp_1/Initializer/zeros (Const) /device:GPU:0
+  Online/fqf/biases/RMSProp_1 (VariableV2) /device:GPU:0
+  Online/fqf/biases/RMSProp_1/Assign (Assign) /device:GPU:0
+  Online/fqf/biases/RMSProp_1/read (Identity) /device:GPU:0
+  Online/fqf/biases/RMSProp_2/Initializer/zeros (Const) /device:GPU:0
+  Online/fqf/biases/RMSProp_2 (VariableV2) /device:GPU:0
+  Online/fqf/biases/RMSProp_2/Assign (Assign) /device:GPU:0
+  Online/fqf/biases/RMSProp_2/read (Identity) /device:GPU:0
+  RMSProp/update_Online/fqf/biases/ApplyCenteredRMSProp (ApplyCenteredRMSProp) /device:GPU:0
+  save/Assign_18 (Assign) /device:GPU:0
+  save/Assign_19 (Assign) /device:GPU:0
+  save/Assign_20 (Assign) /device:GPU:0
+  save/Assign_21 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.523368: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+ApplyAdam: CPU 
+RandomUniform: CPU XLA_CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/quantile_net/weights/Initializer/random_uniform/shape (Const) 
+  Online/quantile_net/weights/Initializer/random_uniform/min (Const) 
+  Online/quantile_net/weights/Initializer/random_uniform/max (Const) 
+  Online/quantile_net/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Online/quantile_net/weights/Initializer/random_uniform/sub (Sub) 
+  Online/quantile_net/weights/Initializer/random_uniform/mul (Mul) 
+  Online/quantile_net/weights/Initializer/random_uniform (Add) 
+  Online/quantile_net/weights (VariableV2) /device:GPU:0
+  Online/quantile_net/weights/Assign (Assign) /device:GPU:0
+  Online/quantile_net/weights/read (Identity) /device:GPU:0
+  Online/quantile_net/weights/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/quantile_net/weights/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/quantile_net/weights/Adam/Initializer/zeros (Fill) /device:GPU:0
+  Online/quantile_net/weights/Adam (VariableV2) /device:GPU:0
+  Online/quantile_net/weights/Adam/Assign (Assign) /device:GPU:0
+  Online/quantile_net/weights/Adam/read (Identity) /device:GPU:0
+  Online/quantile_net/weights/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/quantile_net/weights/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/quantile_net/weights/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  Online/quantile_net/weights/Adam_1 (VariableV2) /device:GPU:0
+  Online/quantile_net/weights/Adam_1/Assign (Assign) /device:GPU:0
+  Online/quantile_net/weights/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_Online/quantile_net/weights/ApplyAdam (ApplyAdam) /device:GPU:0
+  save/Assign_37 (Assign) /device:GPU:0
+  save/Assign_38 (Assign) /device:GPU:0
+  save/Assign_39 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.523490: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Fill: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/quantile_net/biases/Initializer/zeros/shape_as_tensor (Const) 
+  Online/quantile_net/biases/Initializer/zeros/Const (Const) 
+  Online/quantile_net/biases/Initializer/zeros (Fill) 
+  Online/quantile_net/biases (VariableV2) /device:GPU:0
+  Online/quantile_net/biases/Assign (Assign) /device:GPU:0
+  Online/quantile_net/biases/read (Identity) /device:GPU:0
+  Online/quantile_net/biases/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/quantile_net/biases/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/quantile_net/biases/Adam/Initializer/zeros (Fill) /device:GPU:0
+  Online/quantile_net/biases/Adam (VariableV2) /device:GPU:0
+  Online/quantile_net/biases/Adam/Assign (Assign) /device:GPU:0
+  Online/quantile_net/biases/Adam/read (Identity) /device:GPU:0
+  Online/quantile_net/biases/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/quantile_net/biases/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/quantile_net/biases/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  Online/quantile_net/biases/Adam_1 (VariableV2) /device:GPU:0
+  Online/quantile_net/biases/Adam_1/Assign (Assign) /device:GPU:0
+  Online/quantile_net/biases/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_Online/quantile_net/biases/ApplyAdam (ApplyAdam) /device:GPU:0
+  save/Assign_34 (Assign) /device:GPU:0
+  save/Assign_35 (Assign) /device:GPU:0
+  save/Assign_36 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.523935: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+RandomUniform: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/fully_connected/weights/Initializer/random_uniform/shape (Const) 
+  Online/fully_connected/weights/Initializer/random_uniform/min (Const) 
+  Online/fully_connected/weights/Initializer/random_uniform/max (Const) 
+  Online/fully_connected/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Online/fully_connected/weights/Initializer/random_uniform/sub (Sub) 
+  Online/fully_connected/weights/Initializer/random_uniform/mul (Mul) 
+  Online/fully_connected/weights/Initializer/random_uniform (Add) 
+  Online/fully_connected/weights (VariableV2) /device:GPU:0
+  Online/fully_connected/weights/Assign (Assign) /device:GPU:0
+  Online/fully_connected/weights/read (Identity) /device:GPU:0
+  save/Assign_27 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.524519: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/fully_connected/biases/Initializer/zeros (Const) 
+  Online/fully_connected/biases (VariableV2) /device:GPU:0
+  Online/fully_connected/biases/Assign (Assign) /device:GPU:0
+  Online/fully_connected/biases/read (Identity) /device:GPU:0
+  save/Assign_26 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.524831: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+ApplyAdam: CPU 
+RandomUniform: CPU XLA_CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/quantile_values_net/weights/Initializer/random_uniform/shape (Const) 
+  Online/quantile_values_net/weights/Initializer/random_uniform/min (Const) 
+  Online/quantile_values_net/weights/Initializer/random_uniform/max (Const) 
+  Online/quantile_values_net/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Online/quantile_values_net/weights/Initializer/random_uniform/sub (Sub) 
+  Online/quantile_values_net/weights/Initializer/random_uniform/mul (Mul) 
+  Online/quantile_values_net/weights/Initializer/random_uniform (Add) 
+  Online/quantile_values_net/weights (VariableV2) /device:GPU:0
+  Online/quantile_values_net/weights/Assign (Assign) /device:GPU:0
+  Online/quantile_values_net/weights/read (Identity) /device:GPU:0
+  Online/quantile_values_net/weights/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/quantile_values_net/weights/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/quantile_values_net/weights/Adam/Initializer/zeros (Fill) /device:GPU:0
+  Online/quantile_values_net/weights/Adam (VariableV2) /device:GPU:0
+  Online/quantile_values_net/weights/Adam/Assign (Assign) /device:GPU:0
+  Online/quantile_values_net/weights/Adam/read (Identity) /device:GPU:0
+  Online/quantile_values_net/weights/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/quantile_values_net/weights/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/quantile_values_net/weights/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  Online/quantile_values_net/weights/Adam_1 (VariableV2) /device:GPU:0
+  Online/quantile_values_net/weights/Adam_1/Assign (Assign) /device:GPU:0
+  Online/quantile_values_net/weights/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_Online/quantile_values_net/weights/ApplyAdam (ApplyAdam) /device:GPU:0
+  save/Assign_43 (Assign) /device:GPU:0
+  save/Assign_44 (Assign) /device:GPU:0
+  save/Assign_45 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.524946: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/quantile_values_net/biases/Initializer/zeros (Const) 
+  Online/quantile_values_net/biases (VariableV2) /device:GPU:0
+  Online/quantile_values_net/biases/Assign (Assign) /device:GPU:0
+  Online/quantile_values_net/biases/read (Identity) /device:GPU:0
+  Online/quantile_values_net/biases/Adam/Initializer/zeros (Const) /device:GPU:0
+  Online/quantile_values_net/biases/Adam (VariableV2) /device:GPU:0
+  Online/quantile_values_net/biases/Adam/Assign (Assign) /device:GPU:0
+  Online/quantile_values_net/biases/Adam/read (Identity) /device:GPU:0
+  Online/quantile_values_net/biases/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  Online/quantile_values_net/biases/Adam_1 (VariableV2) /device:GPU:0
+  Online/quantile_values_net/biases/Adam_1/Assign (Assign) /device:GPU:0
+  Online/quantile_values_net/biases/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_Online/quantile_values_net/biases/ApplyAdam (ApplyAdam) /device:GPU:0
+  save/Assign_40 (Assign) /device:GPU:0
+  save/Assign_41 (Assign) /device:GPU:0
+  save/Assign_42 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.525099: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+ApplyAdam: CPU 
+RandomUniform: CPU XLA_CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/fully_connected_1/weights/Initializer/random_uniform/shape (Const) 
+  Online/fully_connected_1/weights/Initializer/random_uniform/min (Const) 
+  Online/fully_connected_1/weights/Initializer/random_uniform/max (Const) 
+  Online/fully_connected_1/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Online/fully_connected_1/weights/Initializer/random_uniform/sub (Sub) 
+  Online/fully_connected_1/weights/Initializer/random_uniform/mul (Mul) 
+  Online/fully_connected_1/weights/Initializer/random_uniform (Add) 
+  Online/fully_connected_1/weights (VariableV2) /device:GPU:0
+  Online/fully_connected_1/weights/Assign (Assign) /device:GPU:0
+  Online/fully_connected_1/weights/read (Identity) /device:GPU:0
+  Online/fully_connected_1/weights/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/fully_connected_1/weights/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/fully_connected_1/weights/Adam/Initializer/zeros (Fill) /device:GPU:0
+  Online/fully_connected_1/weights/Adam (VariableV2) /device:GPU:0
+  Online/fully_connected_1/weights/Adam/Assign (Assign) /device:GPU:0
+  Online/fully_connected_1/weights/Adam/read (Identity) /device:GPU:0
+  Online/fully_connected_1/weights/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  Online/fully_connected_1/weights/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  Online/fully_connected_1/weights/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  Online/fully_connected_1/weights/Adam_1 (VariableV2) /device:GPU:0
+  Online/fully_connected_1/weights/Adam_1/Assign (Assign) /device:GPU:0
+  Online/fully_connected_1/weights/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_Online/fully_connected_1/weights/ApplyAdam (ApplyAdam) /device:GPU:0
+  save/Assign_31 (Assign) /device:GPU:0
+  save/Assign_32 (Assign) /device:GPU:0
+  save/Assign_33 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.525194: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Online/fully_connected_1/biases/Initializer/zeros (Const) 
+  Online/fully_connected_1/biases (VariableV2) /device:GPU:0
+  Online/fully_connected_1/biases/Assign (Assign) /device:GPU:0
+  Online/fully_connected_1/biases/read (Identity) /device:GPU:0
+  Online/fully_connected_1/biases/Adam/Initializer/zeros (Const) /device:GPU:0
+  Online/fully_connected_1/biases/Adam (VariableV2) /device:GPU:0
+  Online/fully_connected_1/biases/Adam/Assign (Assign) /device:GPU:0
+  Online/fully_connected_1/biases/Adam/read (Identity) /device:GPU:0
+  Online/fully_connected_1/biases/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  Online/fully_connected_1/biases/Adam_1 (VariableV2) /device:GPU:0
+  Online/fully_connected_1/biases/Adam_1/Assign (Assign) /device:GPU:0
+  Online/fully_connected_1/biases/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_Online/fully_connected_1/biases/ApplyAdam (ApplyAdam) /device:GPU:0
+  save/Assign_28 (Assign) /device:GPU:0
+  save/Assign_29 (Assign) /device:GPU:0
+  save/Assign_30 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.525443: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+RandomUniform: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/Conv/weights/Initializer/random_uniform/shape (Const) 
+  Target/Conv/weights/Initializer/random_uniform/min (Const) 
+  Target/Conv/weights/Initializer/random_uniform/max (Const) 
+  Target/Conv/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Target/Conv/weights/Initializer/random_uniform/sub (Sub) 
+  Target/Conv/weights/Initializer/random_uniform/mul (Mul) 
+  Target/Conv/weights/Initializer/random_uniform (Add) 
+  Target/Conv/weights (VariableV2) /device:GPU:0
+  Target/Conv/weights/Assign (Assign) /device:GPU:0
+  Target/Conv/weights/read (Identity) /device:GPU:0
+  Assign (Assign) /device:GPU:0
+  save/Assign_47 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.525511: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/Conv/biases/Initializer/zeros (Const) 
+  Target/Conv/biases (VariableV2) /device:GPU:0
+  Target/Conv/biases/Assign (Assign) /device:GPU:0
+  Target/Conv/biases/read (Identity) /device:GPU:0
+  Assign_1 (Assign) /device:GPU:0
+  save/Assign_46 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.525607: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+RandomUniform: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/Conv_1/weights/Initializer/random_uniform/shape (Const) 
+  Target/Conv_1/weights/Initializer/random_uniform/min (Const) 
+  Target/Conv_1/weights/Initializer/random_uniform/max (Const) 
+  Target/Conv_1/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Target/Conv_1/weights/Initializer/random_uniform/sub (Sub) 
+  Target/Conv_1/weights/Initializer/random_uniform/mul (Mul) 
+  Target/Conv_1/weights/Initializer/random_uniform (Add) 
+  Target/Conv_1/weights (VariableV2) /device:GPU:0
+  Target/Conv_1/weights/Assign (Assign) /device:GPU:0
+  Target/Conv_1/weights/read (Identity) /device:GPU:0
+  Assign_2 (Assign) /device:GPU:0
+  save/Assign_49 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.525671: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/Conv_1/biases/Initializer/zeros (Const) 
+  Target/Conv_1/biases (VariableV2) /device:GPU:0
+  Target/Conv_1/biases/Assign (Assign) /device:GPU:0
+  Target/Conv_1/biases/read (Identity) /device:GPU:0
+  Assign_3 (Assign) /device:GPU:0
+  save/Assign_48 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.525758: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+RandomUniform: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/Conv_2/weights/Initializer/random_uniform/shape (Const) 
+  Target/Conv_2/weights/Initializer/random_uniform/min (Const) 
+  Target/Conv_2/weights/Initializer/random_uniform/max (Const) 
+  Target/Conv_2/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Target/Conv_2/weights/Initializer/random_uniform/sub (Sub) 
+  Target/Conv_2/weights/Initializer/random_uniform/mul (Mul) 
+  Target/Conv_2/weights/Initializer/random_uniform (Add) 
+  Target/Conv_2/weights (VariableV2) /device:GPU:0
+  Target/Conv_2/weights/Assign (Assign) /device:GPU:0
+  Target/Conv_2/weights/read (Identity) /device:GPU:0
+  Assign_4 (Assign) /device:GPU:0
+  save/Assign_51 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.525826: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/Conv_2/biases/Initializer/zeros (Const) 
+  Target/Conv_2/biases (VariableV2) /device:GPU:0
+  Target/Conv_2/biases/Assign (Assign) /device:GPU:0
+  Target/Conv_2/biases/read (Identity) /device:GPU:0
+  Assign_5 (Assign) /device:GPU:0
+  save/Assign_50 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.525913: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+RandomUniform: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/fqf/weights/Initializer/random_uniform/shape (Const) 
+  Target/fqf/weights/Initializer/random_uniform/min (Const) 
+  Target/fqf/weights/Initializer/random_uniform/max (Const) 
+  Target/fqf/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Target/fqf/weights/Initializer/random_uniform/sub (Sub) 
+  Target/fqf/weights/Initializer/random_uniform/mul (Mul) 
+  Target/fqf/weights/Initializer/random_uniform (Add) 
+  Target/fqf/weights (VariableV2) /device:GPU:0
+  Target/fqf/weights/Assign (Assign) /device:GPU:0
+  Target/fqf/weights/read (Identity) /device:GPU:0
+  Assign_6 (Assign) /device:GPU:0
+  save/Assign_53 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.525978: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/fqf/biases/Initializer/zeros (Const) 
+  Target/fqf/biases (VariableV2) /device:GPU:0
+  Target/fqf/biases/Assign (Assign) /device:GPU:0
+  Target/fqf/biases/read (Identity) /device:GPU:0
+  Assign_7 (Assign) /device:GPU:0
+  save/Assign_52 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.526110: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+RandomUniform: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/quantile_net/weights/Initializer/random_uniform/shape (Const) 
+  Target/quantile_net/weights/Initializer/random_uniform/min (Const) 
+  Target/quantile_net/weights/Initializer/random_uniform/max (Const) 
+  Target/quantile_net/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Target/quantile_net/weights/Initializer/random_uniform/sub (Sub) 
+  Target/quantile_net/weights/Initializer/random_uniform/mul (Mul) 
+  Target/quantile_net/weights/Initializer/random_uniform (Add) 
+  Target/quantile_net/weights (VariableV2) /device:GPU:0
+  Target/quantile_net/weights/Assign (Assign) /device:GPU:0
+  Target/quantile_net/weights/read (Identity) /device:GPU:0
+  Assign_8 (Assign) /device:GPU:0
+  save/Assign_59 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.526192: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Fill: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/quantile_net/biases/Initializer/zeros/shape_as_tensor (Const) 
+  Target/quantile_net/biases/Initializer/zeros/Const (Const) 
+  Target/quantile_net/biases/Initializer/zeros (Fill) 
+  Target/quantile_net/biases (VariableV2) /device:GPU:0
+  Target/quantile_net/biases/Assign (Assign) /device:GPU:0
+  Target/quantile_net/biases/read (Identity) /device:GPU:0
+  Assign_9 (Assign) /device:GPU:0
+  save/Assign_58 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.526299: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+RandomUniform: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/fully_connected/weights/Initializer/random_uniform/shape (Const) 
+  Target/fully_connected/weights/Initializer/random_uniform/min (Const) 
+  Target/fully_connected/weights/Initializer/random_uniform/max (Const) 
+  Target/fully_connected/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Target/fully_connected/weights/Initializer/random_uniform/sub (Sub) 
+  Target/fully_connected/weights/Initializer/random_uniform/mul (Mul) 
+  Target/fully_connected/weights/Initializer/random_uniform (Add) 
+  Target/fully_connected/weights (VariableV2) /device:GPU:0
+  Target/fully_connected/weights/Assign (Assign) /device:GPU:0
+  Target/fully_connected/weights/read (Identity) /device:GPU:0
+  Assign_10 (Assign) /device:GPU:0
+  save/Assign_55 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.526363: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/fully_connected/biases/Initializer/zeros (Const) 
+  Target/fully_connected/biases (VariableV2) /device:GPU:0
+  Target/fully_connected/biases/Assign (Assign) /device:GPU:0
+  Target/fully_connected/biases/read (Identity) /device:GPU:0
+  Assign_11 (Assign) /device:GPU:0
+  save/Assign_54 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.526449: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+RandomUniform: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/quantile_values_net/weights/Initializer/random_uniform/shape (Const) 
+  Target/quantile_values_net/weights/Initializer/random_uniform/min (Const) 
+  Target/quantile_values_net/weights/Initializer/random_uniform/max (Const) 
+  Target/quantile_values_net/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Target/quantile_values_net/weights/Initializer/random_uniform/sub (Sub) 
+  Target/quantile_values_net/weights/Initializer/random_uniform/mul (Mul) 
+  Target/quantile_values_net/weights/Initializer/random_uniform (Add) 
+  Target/quantile_values_net/weights (VariableV2) /device:GPU:0
+  Target/quantile_values_net/weights/Assign (Assign) /device:GPU:0
+  Target/quantile_values_net/weights/read (Identity) /device:GPU:0
+  Assign_12 (Assign) /device:GPU:0
+  save/Assign_61 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.526520: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/quantile_values_net/biases/Initializer/zeros (Const) 
+  Target/quantile_values_net/biases (VariableV2) /device:GPU:0
+  Target/quantile_values_net/biases/Assign (Assign) /device:GPU:0
+  Target/quantile_values_net/biases/read (Identity) /device:GPU:0
+  Assign_13 (Assign) /device:GPU:0
+  save/Assign_60 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.526644: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+RandomUniform: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Sub: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/fully_connected_1/weights/Initializer/random_uniform/shape (Const) 
+  Target/fully_connected_1/weights/Initializer/random_uniform/min (Const) 
+  Target/fully_connected_1/weights/Initializer/random_uniform/max (Const) 
+  Target/fully_connected_1/weights/Initializer/random_uniform/RandomUniform (RandomUniform) 
+  Target/fully_connected_1/weights/Initializer/random_uniform/sub (Sub) 
+  Target/fully_connected_1/weights/Initializer/random_uniform/mul (Mul) 
+  Target/fully_connected_1/weights/Initializer/random_uniform (Add) 
+  Target/fully_connected_1/weights (VariableV2) /device:GPU:0
+  Target/fully_connected_1/weights/Assign (Assign) /device:GPU:0
+  Target/fully_connected_1/weights/read (Identity) /device:GPU:0
+  Assign_14 (Assign) /device:GPU:0
+  save/Assign_57 (Assign) /device:GPU:0
+
+2021-01-14 19:25:38.526710: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  Target/fully_connected_1/biases/Initializer/zeros (Const) 
+  Target/fully_connected_1/biases (VariableV2) /device:GPU:0
+  Target/fully_connected_1/biases/Assign (Assign) /device:GPU:0
+  Target/fully_connected_1/biases/read (Identity) /device:GPU:0
+  Assign_15 (Assign) /device:GPU:0
+  save/Assign_56 (Assign) /device:GPU:0
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/run_experiment.py:207: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W0114 19:25:38.695028 140220355954496 module_wrapper.py:139] From ../../dopamine/discrete_domains/run_experiment.py:207: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From ../../dopamine/discrete_domains/run_experiment.py:208: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+W0114 19:25:38.958313 140220355954496 module_wrapper.py:139] From ../../dopamine/discrete_domains/run_experiment.py:208: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2021-01-14 19:25:39.179244: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 15859712 exceeds 10% of system memory.
+2021-01-14 19:25:39.189916: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 15859712 exceeds 10% of system memory.
+2021-01-14 19:25:39.217926: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 15859712 exceeds 10% of system memory.
+2021-01-14 19:25:39.263327: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 15859712 exceeds 10% of system memory.
+2021-01-14 19:25:39.308588: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 15859712 exceeds 10% of system memory.
+WARNING:tensorflow:From ../../dopamine/discrete_domains/checkpointer.py:70: The name tf.gfile.Glob is deprecated. Please use tf.io.gfile.glob instead.
+
+W0114 19:25:40.152698 140220355954496 module_wrapper.py:139] From ../../dopamine/discrete_domains/checkpointer.py:70: The name tf.gfile.Glob is deprecated. Please use tf.io.gfile.glob instead.
+
+INFO:tensorflow:Beginning training...
+I0114 19:25:40.229574 140220355954496 run_experiment.py:535] Beginning training...
+INFO:tensorflow:Starting iteration 0
+I0114 19:25:40.229785 140220355954496 run_experiment.py:469] Starting iteration 0
+['../../', '/home/miraizura/Music/FQF/dopamine/discrete_domains', '/usr/lib/python36.zip', '/usr/lib/python3.6', '/usr/lib/python3.6/lib-dynload', '/home/miraizura/.local/lib/python3.6/site-packages', '/home/miraizura/Music/FQF', '/usr/local/lib/python3.6/dist-packages', '/usr/lib/python3/dist-packages']
+STICKY_ACTIONS: False
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+iqn_fqf-ws-sqloss-rmsprop-f0.000001-e0.00001-s0
+fqf factor: 1e-06
+NUM_ATOMS: 51
+RUNTYPE: iqn_fqf-ws-sqloss-rmsprop-f0.000001-e0.00001-s0
+VMAX: 10.0
+>>>>>>>> 8
+-------kkkkk = 1.0
+========================== ./fout-visual/visual-Centipede_iqn_fqf-ws-sqloss-rmsprop-f0.000001-e0.00001-s0.pkl
+state_net: (1, 7744) , num_quan: 32
+sum_1: (31, 1, 18)
+L_tau: (31, 1, 18)
+state_net: (32, 7744) , num_quan: 32
+sum_1: (31, 32, 18)
+L_tau: (31, 32, 18)
+state_net: (32, 7744) , num_quan: 32
+sum_1: (31, 32, 18)
+L_tau: (31, 32, 18)
+state_net: (32, 7744) , num_quan: 32
+sum_1: (31, 32, 18)
+L_tau: (31, 32, 18)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Tensor("Online_1/Reshape_7:0", shape=(1024, 18), dtype=float32, device=/device:GPU:0)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Tensor("Reshape_6:0", shape=(992, 18), dtype=float32, device=/device:GPU:0)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Tensor("GatherNd_2:0", shape=(992,), dtype=float32, device=/device:GPU:0)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> (1024, 18)
+(18,)
+fqf_params:>>>>>> [<tf.Variable 'Online/fqf/weights:0' shape=(7744, 32) dtype=float32_ref>, <tf.Variable 'Online/fqf/biases:0' shape=(32,) dtype=float32_ref>]
+iqn_params:>>>>>> [<tf.Variable 'Online/Conv/weights:0' shape=(8, 8, 4, 32) dtype=float32_ref>, <tf.Variable 'Online/Conv/biases:0' shape=(32,) dtype=float32_ref>, <tf.Variable 'Online/Conv_1/weights:0' shape=(4, 4, 32, 64) dtype=float32_ref>, <tf.Variable 'Online/Conv_1/biases:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'Online/Conv_2/weights:0' shape=(3, 3, 64, 64) dtype=float32_ref>, <tf.Variable 'Online/Conv_2/biases:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'Online/quantile_net/weights:0' shape=(64, 7744) dtype=float32_ref>, <tf.Variable 'Online/quantile_net/biases:0' shape=(7744,) dtype=float32_ref>, <tf.Variable 'Online/fully_connected/weights:0' shape=(7744, 512) dtype=float32_ref>, <tf.Variable 'Online/fully_connected/biases:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'Online/quantile_values_net/weights:0' shape=(512, 18) dtype=float32_ref>, <tf.Variable 'Online/quantile_values_net/biases:0' shape=(18,) dtype=float32_ref>, <tf.Variable 'Online/fully_connected_1/weights:0' shape=(7744, 512) dtype=float32_ref>, <tf.Variable 'Online/fully_connected_1/biases:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'Target/Conv/weights:0' shape=(8, 8, 4, 32) dtype=float32_ref>, <tf.Variable 'Target/Conv/biases:0' shape=(32,) dtype=float32_ref>, <tf.Variable 'Target/Conv_1/weights:0' shape=(4, 4, 32, 64) dtype=float32_ref>, <tf.Variable 'Target/Conv_1/biases:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'Target/Conv_2/weights:0' shape=(3, 3, 64, 64) dtype=float32_ref>, <tf.Variable 'Target/Conv_2/biases:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'Target/fqf/weights:0' shape=(7744, 32) dtype=float32_ref>, <tf.Variable 'Target/fqf/biases:0' shape=(32,) dtype=float32_ref>, <tf.Variable 'Target/quantile_net/weights:0' shape=(64, 7744) dtype=float32_ref>, <tf.Variable 'Target/quantile_net/biases:0' shape=(7744,) dtype=float32_ref>, <tf.Variable 'Target/fully_connected/weights:0' shape=(7744, 512) dtype=float32_ref>, <tf.Variable 'Target/fully_connected/biases:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'Target/quantile_values_net/weights:0' shape=(512, 18) dtype=float32_ref>, <tf.Variable 'Target/quantile_values_net/biases:0' shape=(18,) dtype=float32_ref>, <tf.Variable 'Target/fully_connected_1/weights:0' shape=(7744, 512) dtype=float32_ref>, <tf.Variable 'Target/fully_connected_1/biases:0' shape=(512,) dtype=float32_ref>]
+================================================
+q_entropy: Tensor("mul_13:0", shape=(32,), dtype=float32, device=/device:GPU:0)
+Tensor("strided_slice_11:0", shape=(32, 31), dtype=float32, device=/device:GPU:0)
+[<tf.Variable 'Online/fqf/weights:0' shape=(7744, 32) dtype=float32_ref>, <tf.Variable 'Online/fqf/biases:0' shape=(32,) dtype=float32_ref>]
+[<tf.Tensor 'gradients/Online_1/fqf/MatMul_grad/MatMul_1:0' shape=(7744, 32) dtype=float32>, <tf.Tensor 'gradients/Online_1/fqf/BiasAdd_grad/BiasAddGrad:0' shape=(32,) dtype=float32>]
+use sqloss
+[-10.          -9.6         -9.2         -8.8         -8.4
+  -8.          -7.6         -7.2         -6.8         -6.3999996
+  -6.          -5.6         -5.2         -4.7999997   -4.4
+  -4.          -3.6         -3.1999998   -2.7999997   -2.4
+  -2.          -1.5999994   -1.1999998   -0.8000002   -0.39999962
+   0.           0.40000057   0.8000002    1.1999998    1.6000004
+   2.           2.4000006    2.8000002    3.1999998    3.6000004
+   4.           4.4000006    4.8          5.2          5.6000004
+   6.           6.3999996    6.800001     7.200001     7.6000004
+   8.           8.4          8.800001     9.200001     9.6
+  10.        ]
+>>>>>>>>> Centipede
+Steps executed: 636 Episode length: 636 Return: 906.0 Average time one episode: 44.74977922265001Steps executed: 1096 Episode length: 460 Return: 968.0 Average time one episode: 48.50849624101739Steps executed: 1677 Episode length: 581 Return: 2315.0 Average time one episode: 45.48814232181787Steps executed: 2259 Episode length: 582 Return: 2106.0 Average time one episode: 45.48673403475375Steps executed: 2880 Episode length: 621 Return: 1790.0 Average time one episode: 42.706772572406166Steps executed: 3767 Episode length: 887 Return: 1686.0 Average time one episode: 41.70556091910198Steps executed: 4607 Episode length: 840 Return: 1987.0 Average time one episode: 38.66387654109148Steps executed: 5497 Episode length: 890 Return: 5507.0 Average time one episode: 36.97306347823577Steps executed: 6180 Episode length: 683 Return: 1805.0 Average time one episode: 33.98885313639995Steps executed: 6668 Episode length: 488 Return: 647.0 Average time one episode: 37.12672466913004Steps executed: 7571 Episode length: 903 Return: 3392.0 Average time one episode: 37.28504970767004Steps executed: 8326 Episode length: 755 Return: 2206.0 Average time one episode: 35.328339913949314Steps executed: 8835 Episode length: 509 Return: 1211.0 Average time one episode: 33.33091553525195Steps executed: 9572 Episode length: 737 Return: 1664.0 Average time one episode: 32.294976638394374Steps executed: 10185 Episode length: 613 Return: 1919.0 Average time one episode: 34.09537758038154Steps executed: 10889 Episode length: 704 Return: 771.0 Average time one episode: 26.703019503335362Steps executed: 11845 Episode length: 956 Return: 3832.0 Average time one episode: 22.678246137417972Steps executed: 12495 Episode length: 650 Return: 1670.0 Average time one episode: 29.13005243723915Steps executed: 13122 Episode length: 627 Return: 1106.0 Average time one episode: 18.006748246158512Steps executed: 14264 Episode length: 1142 Return: 5466.0 Average time one episode: 13.549415335307055Steps executed: 14880 Episode length: 616 Return: 1449.0 Average time one episode: 12.569064298665173Steps executed: 15510 Episode length: 630 Return: 1492.0 Average time one episode: 17.310376474677277Steps executed: 16123 Episode length: 613 Return: 1655.0 Average time one episode: 17.934209239192455Steps executed: 17439 Episode length: 1316 Return: 5041.0 Average time one episode: 13.39122842553191Steps executed: 18031 Episode length: 592 Return: 2820.0 Average time one episode: 13.809727227589445Steps executed: 18801 Episode length: 770 Return: 2365.0 Average time one episode: 13.673016965643926Steps executed: 19808 Episode length: 1007 Return: 6317.0 Average time one episode: 17.810503822558665Steps executed: 20720 Episode length: 912 Return: 4707.0 Average time one episode: 20.565992786159427Steps executed: 21359 Episode length: 639 Return: 1620.0 Average time one episode: 19.491906179021523Steps executed: 21792 Episode length: 433 Return: 1373.0 Average time one episode: 18.63068195014255Steps executed: 22336 Episode length: 544 Return: 2044.0 Average time one episode: 21.698918402244658Steps executed: 23345 Episode length: 1009 Return: 1902.0 Average time one episode: 20.201523900532276Steps executed: 24033 Episode length: 688 Return: 3239.0 Average time one episode: 21.63969447644409Steps executed: 25112 Episode length: 1079 Return: 4845.0 Average time one episode: 19.079636954964062Steps executed: 25776 Episode length: 664 Return: 1757.0 Average time one episode: 13.70626890256459Steps executed: 26616 Episode length: 840 Return: 2202.0 Average time one episode: 16.519301328311172Steps executed: 27323 Episode length: 707 Return: 934.0 Average time one episode: 17.93319101472042Steps executed: 27989 Episode length: 666 Return: 2509.0 Average time one episode: 12.936940586522311Steps executed: 28516 Episode length: 527 Return: 1646.0 Average time one episode: 14.840525406857086Steps executed: 29242 Episode length: 726 Return: 1617.0 Average time one episode: 19.554184746785946Steps executed: 30171 Episode length: 929 Return: 3373.0 Average time one episode: 21.872742564809037Steps executed: 30700 Episode length: 529 Return: 1845.0 Average time one episode: 23.75845733239788Steps executed: 31213 Episode length: 513 Return: 1051.0 Average time one episode: 15.15577219594985Steps executed: 31984 Episode length: 771 Return: 4991.0 Average time one episode: 11.906643774756972Steps executed: 32688 Episode length: 704 Return: 3105.0 Average time one episode: 16.149864864476836Steps executed: 33362 Episode length: 674 Return: 2785.0 Average time one episode: 16.590743233733875Steps executed: 33924 Episode length: 562 Return: 562.0 Average time one episode: 18.506417593340338Steps executed: 34762 Episode length: 838 Return: 2443.0 Average time one episode: 17.70975417196117Steps executed: 35219 Episode length: 457 Return: 850.0 Average time one episode: 19.00754559517671Steps executed: 36072 Episode length: 853 Return: 2138.0 Average time one episode: 19.50197262979868Steps executed: 36653 Episode length: 581 Return: 1682.0 Average time one episode: 18.379248753518763Steps executed: 37507 Episode length: 854 Return: 3308.0 Average time one episode: 18.20736337308825Steps executed: 38196 Episode length: 689 Return: 2050.0 Average time one episode: 18.036446563791205Steps executed: 38718 Episode length: 522 Return: 357.0 Average time one episode: 18.376508464321084Steps executed: 39803 Episode length: 1085 Return: 3059.0 Average time one episode: 17.7543124956283Steps executed: 40168 Episode length: 365 Return: 598.0 Average time one episode: 19.30830352762252Steps executed: 40732 Episode length: 564 Return: 1524.0 Average time one episode: 16.162377053899647Steps executed: 41281 Episode length: 549 Return: 866.0 Average time one episode: 13.944284494365979Steps executed: 41934 Episode length: 653 Return: 939.0 Average time one episode: 13.623846565973343Steps executed: 42665 Episode length: 731 Return: 3343.0 Average time one episode: 14.326960028221068Steps executed: 43325 Episode length: 660 Return: 1086.0 Average time one episode: 18.3936330923937Steps executed: 43981 Episode length: 656 Return: 2374.0 Average time one episode: 19.18007684736047Steps executed: 44818 Episode length: 837 Return: 2568.0 Average time one episode: 14.607645550042614Steps executed: 45371 Episode length: 553 Return: 1387.0 Average time one episode: 10.682888265593139Steps executed: 46236 Episode length: 865 Return: 2309.0 Average time one episode: 11.43243356512641Steps executed: 46873 Episode length: 637 Return: 2105.0 Average time one episode: 13.107011342370102Steps executed: 47631 Episode length: 758 Return: 2890.0 Average time one episode: 8.684141597168408Steps executed: 48068 Episode length: 437 Return: 1786.0 Average time one episode: 8.720915221639139Steps executed: 48823 Episode length: 755 Return: 1126.0 Average time one episode: 9.1206821763237262021-01-14 20:11:44.039974: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at scatter_nd_op.cc:133 : Invalid argument: indices[31] = [31, 10] does not index into shape [31,32,18]
+2021-01-14 20:11:45.717648: W tensorflow/core/framework/op_kernel.cc:1651] OP_REQUIRES failed at gather_nd_op.cc:47 : Invalid argument: indices[1023] = [1023, 10] does not index into param shape [31,32,18]
+Traceback (most recent call last):
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1365, in _do_call
+    return fn(*args)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1350, in _run_fn
+    target_list, run_metadata)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1443, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: indices[31] = [31, 10] does not index into shape [31,32,18]
+	 [[{{node gradients_2/GatherNd_3_grad/ScatterNd}}]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "train.py", line 65, in <module>
+    app.run(main)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/absl/app.py", line 303, in run
+    _run_main(main, args)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "train.py", line 60, in main
+    runner.run_experiment()
+  File "../../dopamine/discrete_domains/run_experiment.py", line 542, in run_experiment
+    statistics = self._run_one_iteration(iteration)
+  File "../../dopamine/discrete_domains/run_experiment.py", line 471, in _run_one_iteration
+    statistics)
+  File "../../dopamine/discrete_domains/run_experiment.py", line 423, in _run_train_phase
+    self._training_steps, statistics, 'train')
+  File "../../dopamine/discrete_domains/run_experiment.py", line 386, in _run_one_phase
+    episode_length, episode_return = self._run_one_episode(run_mode_str)
+  File "../../dopamine/discrete_domains/run_experiment.py", line 358, in _run_one_episode
+    action = self._agent.step(reward, observation)
+  File "../../dopamine/agents/rainbow/rainbow_agent.py", line 329, in step
+    self._train_step()
+  File "../../dopamine/agents/fqf/fqf_agent.py", line 128, in _train_step
+    _, _, loss, loss1, quan_value, quan, vdiff = self._sess.run(self._train_op)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 956, in run
+    run_metadata_ptr)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1180, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1359, in _do_run
+    run_metadata)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1384, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: indices[31] = [31, 10] does not index into shape [31,32,18]
+	 [[node gradients_2/GatherNd_3_grad/ScatterNd (defined at /home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py:1748) ]]
+
+Original stack trace for 'gradients_2/GatherNd_3_grad/ScatterNd':
+  File "train.py", line 65, in <module>
+    app.run(main)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/absl/app.py", line 303, in run
+    _run_main(main, args)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "train.py", line 59, in main
+    runner = run_experiment.create_runner(FLAGS.base_dir)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/gin/config.py", line 1009, in wrapper
+    return fn(*new_args, **new_kwargs)
+  File "../../dopamine/discrete_domains/run_experiment.py", line 116, in create_runner
+    return Runner(base_dir, create_agent)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/gin/config.py", line 1009, in wrapper
+    return fn(*new_args, **new_kwargs)
+  File "../../dopamine/discrete_domains/run_experiment.py", line 205, in __init__
+    summary_writer=self._summary_writer)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/gin/config.py", line 1009, in wrapper
+    return fn(*new_args, **new_kwargs)
+  File "../../dopamine/discrete_domains/run_experiment.py", line 94, in create_agent
+    summary_writer=summary_writer)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/gin/config.py", line 1009, in wrapper
+    return fn(*new_args, **new_kwargs)
+  File "../../dopamine/agents/fqf/fqf_agent.py", line 103, in __init__
+    summary_writing_frequency=summary_writing_frequency)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/gin/config.py", line 1009, in wrapper
+    return fn(*new_args, **new_kwargs)
+  File "../../dopamine/agents/rainbow/rainbow_agent.py", line 229, in __init__
+    summary_writing_frequency=summary_writing_frequency)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/gin/config.py", line 1009, in wrapper
+    return fn(*new_args, **new_kwargs)
+  File "../../dopamine/agents/dqn/dqn_agent.py", line 205, in __init__
+    self._train_op = self._build_train_op()
+  File "../../dopamine/agents/fqf/fqf_agent.py", line 410, in _build_train_op
+    self.optimizer1.minimize(tf.reduce_mean(loss1), var_list=fqf_params), \
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/training/optimizer.py", line 403, in minimize
+    grad_loss=grad_loss)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/training/optimizer.py", line 512, in compute_gradients
+    colocate_gradients_with_ops=colocate_gradients_with_ops)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/gradients_impl.py", line 158, in gradients
+    unconnected_gradients)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/gradients_util.py", line 679, in _GradientsHelper
+    lambda: grad_fn(op, *out_grads))
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/gradients_util.py", line 350, in _MaybeCompile
+    return grad_fn()  # Exit early
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/gradients_util.py", line 679, in <lambda>
+    lambda: grad_fn(op, *out_grads))
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/array_grad.py", line 623, in _GatherNdGrad
+    ref_grad = array_ops.scatter_nd(indices, grad, ref_shape)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/gen_array_ops.py", line 8782, in scatter_nd
+    "ScatterNd", indices=indices, updates=updates, shape=shape, name=name)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/framework/op_def_library.py", line 794, in _apply_op_helper
+    op_def=op_def)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3357, in create_op
+    attrs, op_def, compute_device)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3426, in _create_op_internal
+    op_def=op_def)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1748, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+...which was originally created as op 'GatherNd_3', defined at:
+  File "train.py", line 65, in <module>
+    app.run(main)
+[elided 14 identical lines from previous traceback]
+  File "../../dopamine/agents/dqn/dqn_agent.py", line 205, in __init__
+    self._train_op = self._build_train_op()
+  File "../../dopamine/agents/fqf/fqf_agent.py", line 377, in _build_train_op
+    chosen_action_L_tau = tf.gather_nd(self._replay_net_outputs.L_tau, reshaped_actions)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/util/dispatch.py", line 180, in wrapper
+    return target(*args, **kwargs)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/array_ops.py", line 4277, in gather_nd
+    return gen_array_ops.gather_nd(params, indices, name=name)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/gen_array_ops.py", line 3976, in gather_nd
+    "GatherNd", params=params, indices=indices, name=name)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/framework/op_def_library.py", line 794, in _apply_op_helper
+    op_def=op_def)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3357, in create_op
+    attrs, op_def, compute_device)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 3426, in _create_op_internal
+    op_def=op_def)
+  File "/home/miraizura/.local/lib/python3.6/site-packages/tensorflow_core/python/framework/ops.py", line 1748, in __init__
+    self._traceback = tf_stack.extract_stack()
+
