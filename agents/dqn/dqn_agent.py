@@ -171,11 +171,11 @@ class DQNAgent(object):
     self.observation_dtype = observation_dtype
     self.stack_size = stack_size
     self.network = network
-    self.gamma = gamma
+    self.gamma = 0.95
     self.update_horizon = update_horizon
     self.cumulative_gamma = math.pow(gamma, update_horizon)
     self.min_replay_history = 200
-    self.target_update_period = 40
+    self.target_update_period = 900
     self.epsilon_fn = epsilon_fn
     self.epsilon_train = 0.2
     self.epsilon_eval = 0.001
@@ -335,6 +335,8 @@ class DQNAgent(object):
     """
     replay_action_one_hot = tf.one_hot(
         self._replay.actions, self.num_actions, 1., 0., name='action_one_hot')
+    print("TOOTOO:", self._replay_net_outputs.q_values)
+    print(replay_action_one_hot)
     replay_chosen_q = tf.reduce_sum(
         self._replay_net_outputs.q_values * replay_action_one_hot,
         reduction_indices=1,

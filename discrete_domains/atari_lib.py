@@ -92,16 +92,17 @@ def nature_dqn_network(num_actions, network_type, state, aux=False, next_state=N
   Returns:
     net: _network_type object containing the tensors output by the network.
   """
-  net = tf.cast(state, tf.float32)
-  net = tf.div(net, 255.)
-  net = slim.conv2d(net, 32, [8, 8], stride=4, scope='conv2d_1')
-  net = slim.conv2d(net, 64, [4, 4], stride=2, scope='conv2d_2')
-  net = slim.conv2d(net, 64, [3, 3], stride=1, scope='conv2d_3')
-  net = slim.flatten(net)
-
-  net = slim.fully_connected(net, 512)
-  q_values = slim.fully_connected(net, num_actions, activation_fn=None)
-  return network_type(q_values, None)
+  hidden_layers_size=[9, 100, 160, 160, 100, 9]
+  layer = tf.cast(state, tf.float32)
+  layer= slim.flatten(layer)
+  for i in range(len(hidden_layers_size)):
+            layer = tf.layers.dense(inputs=layer, units=hidden_layers_size[i], activation=tf.nn.relu,
+                                    name='{}_dense_layer_{}'.format("zura",i),
+                                    kernel_initializer=tf.contrib.layers.xavier_initializer())
+            print("LAYER:",layer)
+  net = tf.layers.dense(inputs=layer, units=9, name='{}_dense_layer_{}'.format("zura",len(hidden_layers_size)),
+                                      kernel_initializer=tf.contrib.layers.xavier_initializer())
+  return network_type(net, None)
 
 #@profile
 def rainbow_network(num_actions, num_atoms, num_atoms_sub, support, network_type, state, runtype='run', v_support=None, a_support=None, big_z=None, big_a=None, big_qv=None, N=1, index=None, M=None, sp_a=None, unique_num=None, sortsp_a=None, v_sup_tensor=None): #run, conv, convmean
@@ -117,8 +118,8 @@ def rainbow_network(num_actions, num_atoms, num_atoms_sub, support, network_type
   Returns:
     net: _network_type object containing the tensors output by the network.
   """
-  weights_initializer = slim.variance_scaling_initializer(
-      factor=1.0 / np.sqrt(3.0), mode='FAN_IN', uniform=True)
+  weights_initializer = tf.variance_scaling_initializer(
+      scale=1.0 / np.sqrt(3.0), mode='fan_in', distribution="uniform")
 
   net = tf.cast(state, tf.float32)
   net = tf.div(net, 255.)
@@ -158,21 +159,19 @@ def implicit_quantile_network(num_actions, quantile_embedding_dim,
   Returns:
     net: _network_type object containing the tensors output by the network.
   """
-  weights_initializer = slim.variance_scaling_initializer(
-      factor=1.0 / np.sqrt(3.0), mode='FAN_IN', uniform=True)
-
-  state_net = tf.cast(state, tf.float32)
-  state_net = tf.div(state_net, 255.)
-  state_net = slim.conv2d(
-      state_net, 32, [8, 8], stride=4,
-      weights_initializer=weights_initializer)
-  state_net = slim.conv2d(
-      state_net, 64, [4, 4], stride=2,
-      weights_initializer=weights_initializer)
-  state_net = slim.conv2d(
-      state_net, 64, [3, 3], stride=1,
-      weights_initializer=weights_initializer)
-  state_net = slim.flatten(state_net)
+  weights_initializer = tf.variance_scaling_initializer(
+      scale=1.0 / np.sqrt(3.0), mode='fan_in', distribution="uniform")
+  hidden_layers_size=[9, 100, 160, 160, 100, 9]
+  layer = tf.cast(state, tf.float32)
+  layer= slim.flatten(layer)
+  for i in range(len(hidden_layers_size)):
+            layer = tf.layers.dense(inputs=layer, units=hidden_layers_size[i], activation=tf.nn.relu,
+                                    name='{}_dense_layer_{}'.format("zura",i),
+                                    kernel_initializer=tf.contrib.layers.xavier_initializer())
+            print("LAYER:",layer)
+  state_net = tf.layers.dense(inputs=layer, units=9, name='{}_dense_layer_{}'.format("zura",len(hidden_layers_size)),
+                                      kernel_initializer=tf.contrib.layers.xavier_initializer())
+  
   print ('state_net:', state_net.shape, ", num_quan:", num_quantiles)
   state_net_size = state_net.get_shape().as_list()[-1]
 
@@ -187,16 +186,13 @@ def implicit_quantile_network(num_actions, quantile_embedding_dim,
   quantile_net = tf.cast(tf.range(
       1, quantile_embedding_dim + 1, 1), tf.float32) * pi * quantile_net
   quantile_net = tf.cos(quantile_net)
-  quantile_net = slim.fully_connected(quantile_net, state_net_size,
-                                      weights_initializer=weights_initializer)
+  quantile_net = tf.layers.dense(inputs=quantile_net, units=state_net_size, name='{}_dense_layer_{}'.format("zuraa",len(hidden_layers_size)),
+                                      kernel_initializer=weights_initializer)
   net = tf.multiply(state_net_tiled, quantile_net)
-  net = slim.fully_connected(
-      net, 512, weights_initializer=weights_initializer)
-  quantile_values = slim.fully_connected(
-      net,
-      num_actions,
-      activation_fn=None,
-      weights_initializer=weights_initializer)
+  net = tf.layers.dense(inputs=net, units=512, name='{}_dense_layer_{}'.format("zuraaa",len(hidden_layers_size)),
+                                      kernel_initializer=weights_initializer)
+  quantile_values = tf.layers.dense(inputs=net, units=num_actions, name='{}_dense_layer_{}'.format("zuraaaa",len(hidden_layers_size)),
+                                      kernel_initializer=weights_initializer, activation=None)
   return network_type(quantile_values=quantile_values, quantiles=quantiles)
 
 def fqf_network(num_actions, quantile_embedding_dim,

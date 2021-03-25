@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/neriait/tic_tac_toe_IQN_2/dopamine/discrete_domains/latest8/tf_ckpt-0"
+all_model_checkpoint_paths: "/home/neriait/tic_tac_toe_IQN_2/dopamine/discrete_domains/latest8/tf_ckpt-0"

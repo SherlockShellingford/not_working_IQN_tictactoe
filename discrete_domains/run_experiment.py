@@ -47,7 +47,6 @@ from copy import deepcopy
 
 def load_gin_configs(gin_files, gin_bindings):
   """Loads gin configuration files.
-
   Args:
     gin_files: list, of paths to the gin configuration files for this
       experiment.
@@ -63,7 +62,6 @@ def load_gin_configs(gin_files, gin_bindings):
 def create_agent(sess, environment, agent_name=None, summary_writer=None,
                  debug_mode=False):
   """Creates an agent.
-
   Args:
     sess: A `tf.Session` object for running associated ops.
     environment: A gym environment (e.g. Atari 2600).
@@ -73,10 +71,8 @@ def create_agent(sess, environment, agent_name=None, summary_writer=None,
     debug_mode: bool, whether to output Tensorboard summaries. If set to true,
       the agent will output in-episode statistics to Tensorboard. Disabled by
       default as this results in slower training.
-
   Returns:
     agent: An RL agent.
-
   Raises:
     ValueError: If `agent_name` is not in supported list.
   """
@@ -109,14 +105,11 @@ def create_agent(sess, environment, agent_name=None, summary_writer=None,
 @gin.configurable
 def create_runner(base_dir, schedule='continuous_train_and_eval'):
   """Creates an experiment Runner.
-
   Args:
     base_dir: str, base directory for hosting all subdirectories.
     schedule: string, which type of Runner to use.
-
   Returns:
     runner: A `Runner` like object.
-
   Raises:
     ValueError: When an unknown schedule is encountered.
   """
@@ -134,13 +127,10 @@ def create_runner(base_dir, schedule='continuous_train_and_eval'):
 @gin.configurable
 class Runner(object):
   """Object that handles running Dopamine experiments.
-
   Here we use the term 'experiment' to mean simulating interactions between the
   agent and the environment and reporting some statistics pertaining to these
   interactions.
-
   A simple scenario to train a DQN agent is as follows:
-
   ```python
   import dopamine.discrete_domains.atari_lib
   base_dir = '/tmp/simple_example'
@@ -165,7 +155,6 @@ class Runner(object):
                evaluation_steps=125000,
                max_steps_per_episode=27000):
     """Initialize the Runner object in charge of running a full experiment.
-
     Args:
       base_dir: str, the base directory to host all required sub-directories.
       create_agent_fn: A function that takes as args a Tensorflow session and an
@@ -181,7 +170,6 @@ class Runner(object):
       evaluation_steps: int, the number of evaluation steps to perform.
       max_steps_per_episode: int, maximum number of steps after which an episode
         terminates.
-
     This constructor will take the following actions:
     - Initialize an environment.
     - Initialize a `tf.Session`.
@@ -264,7 +252,6 @@ class Runner(object):
 
   def _initialize_checkpointer_and_maybe_resume(self, checkpoint_file_prefix):
     """Reloads the latest checkpoint if it exists.
-
     This method will first create a `Checkpointer` object and then call
     `checkpointer.get_latest_checkpoint_number` to determine if there is a valid
     checkpoiRnt in self._checkpoint_dir, and what the largest file number is.
@@ -275,10 +262,8 @@ class Runner(object):
     then load the `Logger`'s data from the bundle, and will return the iteration
     number keyed by 'current_iteration' as one of the return values (along with
     the `Checkpointer` object).
-
     Args:
       checkpoint_file_prefix: str, the checkpoint file prefix.
-
     Returns:
       start_iteration: int, the iteration number to start the experiment from.
       experiment_checkpointer: `Checkpointer` object for the experiment.
@@ -374,7 +359,6 @@ class Runner(object):
   
   def _initialize_episode(self, run_mode_str):
     """Initialization for a new episode.
-
     Returns:
       action: int, the initial action chosen by the agent.
     """
@@ -395,7 +379,6 @@ class Runner(object):
 
   def _run_one_step(self, action):
     """Executes a single step in the environment.
-
     Args:
       action: int, the action to perform in the environment.
     
@@ -424,7 +407,6 @@ class Runner(object):
 
   def _end_episode(self, reward):
     """Finalizes an episode run.
-
     Args:
       reward: float, the last reward from the environment.
     """
@@ -441,7 +423,6 @@ class Runner(object):
     
   def _run_one_episode(self, run_mode_str):
     """Executes a full trajectory of the agent interacting with the environment.
-
     Returns:
       The number of steps taken and the total reward.
     """
@@ -454,10 +435,11 @@ class Runner(object):
     switchedobservation2=None
     gameplayer=[]
     gameopponent=[]
+    pi_data=[]
+    count=0
+    
       
     initial_observation = self._environment.reset()
-    
-    
     
     is_terminal = False
     observation2=initial_observation
@@ -468,17 +450,18 @@ class Runner(object):
       originalobservation2=observation2
       observation2=self.observation_to_tensorlike(observation2)
       if run_mode_str=='oldvsnew':
-          observation, reward, is_terminal = self._run_one_step(self._agent11.get_action_from_observation(observation2))
-          action=2
-      elif run_mode_str=='oldvsboss':
-          observation, reward, is_terminal = self._run_one_step(self._agent11.get_action_from_observation(observation2))
-          action=2
-      elif run_mode_str=='oldvsold':
-          observation, reward, is_terminal = self._run_one_step(self._agent11.get_action_from_observation(observation2))
-          action=2
-      elif run_mode_str=='newvsold':
-          observation, reward, is_terminal = self._run_one_step(self._agent.get_action_from_observation(observation2))
-          action=2
+        pass
+      #    observation, reward, is_terminal = self._run_one_step(self._agent11.get_action_from_observation(observation2))
+      #    action=2
+      #elif run_mode_str=='oldvsboss':
+      #    observation, reward, is_terminal = self._run_one_step(self._agent11.get_action_from_observation(observation2))
+      #    action=2
+      #elif run_mode_str=='oldvsold':
+      #    observation, reward, is_terminal = self._run_one_step(self._agent11.get_action_from_observation(observation2))
+      #    action=2
+      #elif run_mode_str=='newvsold':
+      #    observation, reward, is_terminal = self._run_one_step(self._agent.get_action_from_observation(observation2))
+      #    action=2
       
       elif run_mode_str=='evalrandom':
           observation, reward, is_terminal = self._run_one_step(self._agent.get_action_from_observation(observation2))
@@ -488,11 +471,21 @@ class Runner(object):
         observation, reward, is_terminal = self._run_one_step(action)
       elif run_mode_str=='train1':
         self._agent.eval_mode=False
-        action = self._agent.get_action_from_observation(observation2)
+        
+        if count < CFG.temp_thresh:
+                best_child = self.mcts1.search(game, node, CFG.temp_init)
+        else:
+                best_child = self.mcts1.search(game, node, CFG.temp_final)
+        
+        action = best_child.action
         observation, reward, is_terminal = self._run_one_step(action) 
       elif run_mode_str=='train2':
         self._agent.eval_mode=True
-        action = self._agent11.get_action_from_observation(observation2)
+        if count < CFG.temp_thresh:
+                best_child = self.mcts.search(game, node, CFG.temp_init)
+        else:
+                best_child = self.mcts.search(game, node, CFG.temp_final)
+        action = best_child.action
         observation, reward, is_terminal = self._run_one_step(action) 
       else:
         print("Marco polo")
@@ -505,32 +498,43 @@ class Runner(object):
       if not is_terminal:
       #Player2
         if run_mode_str=='oldvsnew':
-          observation2, reward2, is_terminal = self._run_one_step(self._agent2.get_action_from_observation(observation))
-          action2=2
-        elif run_mode_str=='oldvsold':
-          observation2, reward2, is_terminal = self._run_one_step(self._agent22.get_action_from_observation(observation))
-          action2=2
-        elif run_mode_str=='newvsold':
-          observation2, reward2, is_terminal = self._run_one_step(self._agent22.get_action_from_observation(observation))
-          action2=2
-        elif run_mode_str=='evalrandom':
-          observation2, reward2, is_terminal = self._run_one_step(random.choice(self._environment.available_actions()))
-          action2=2
-        elif run_mode_str=='eval':
-          observation2, reward2, is_terminal = self._run_one_step(self.opponent.act(originalobservation, self._environment.available_actions()))
-          action2=2
-        elif run_mode_str=='oldvsboss':
-          observation2, reward2, is_terminal = self._run_one_step(self.opponent.act(originalobservation, self._environment.available_actions()))
-          action2=2
+          pass
+        #  observation2, reward2, is_terminal = self._run_one_step(self._agent2.get_action_from_observation(observation))
+        #  action2=2
+        #elif run_mode_str=='oldvsold':
+        #  observation2, reward2, is_terminal = self._run_one_step(self._agent22.get_action_from_observation(observation))
+        #  action2=2
+        #elif run_mode_str=='newvsold':
+        #  observation2, reward2, is_terminal = self._run_one_step(self._agent22.get_action_from_observation(observation))
+        #  action2=2
+        #elif run_mode_str=='evalrandom':
+        #  observation2, reward2, is_terminal = self._run_one_step(random.choice(self._environment.available_actions()))
+        #  action2=2
+        #elif run_mode_str=='eval':
+        #  observation2, reward2, is_terminal = self._run_one_step(self.opponent.act(originalobservation, self._environment.available_actions()))
+        #  action2=2
+        #elif run_mode_str=='oldvsboss':
+        #  observation2, reward2, is_terminal = self._run_one_step(self.opponent.act(originalobservation, self._environment.available_actions()))
+        #  action2=2
         elif run_mode_str=='train1':
-          self._agent2.eval_mode=True
-          action2 = self._agent22.get_action_from_observation(observation)
-          observation2, reward2, is_terminal = self._run_one_step(action2)
-        
+          self._agent.eval_mode=True
+          if count < CFG.temp_thresh:
+                best_child = self.mcts.search(game, node, CFG.temp_init)
+          else:
+                best_child = self.mcts.search(game, node, CFG.temp_final)
+          action = best_child.action
+          observation, reward, is_terminal = self._run_one_step(action) 
+          
         elif run_mode_str=='train2':
-          self._agent2.eval_mode=False
-          action2 = self._agent2.get_action_from_observation(observation)
-          observation2, reward2, is_terminal = self._run_one_step(action2)
+          self._agent.eval_mode=False
+          if count < CFG.temp_thresh:
+                best_child = self.mcts.search(game, node, CFG.temp_init)
+          else:
+                best_child = self.mcts.search(game, node, CFG.temp_final)
+        
+          action = best_child.action
+          observation, reward, is_terminal = self._run_one_step(action)
+        
         else:
           print("Marco polo2")
           action2 = self._agent2.get_action_from_observation(observation)
@@ -575,16 +579,13 @@ class Runner(object):
 
   def _run_one_phase(self, min_steps, statistics, run_mode_str, is_silent):
     """Runs the agent/environment loop until a desired number of steps.
-
     We follow the Machado et al., 2017 convention of running full episodes,
     and terminating once we've run a minimum number of steps.
-
     Args:
       min_steps: int, minimum number of steps to generate in this phase.
       statistics: `IterationStatistics` object which records the experimental
         results.
       run_mode_str: str, describes the run mode for this agent.
-
     Returns:
       Tuple containing the number of steps taken in this phase (int), the sum of
         returns (float), and the number of episodes performed (int).
@@ -623,11 +624,9 @@ class Runner(object):
 
   def _run_train_phase(self, statistics):
     """Run training phase.
-
     Args:
       statistics: `IterationStatistics` object which records the experimental
         results. Note - This object is modified by this method.
-
     Returns:
       num_episodes: int, The number of episodes run in this phase.
       average_reward: The average reward generated in this phase.
@@ -650,11 +649,9 @@ class Runner(object):
 
   def _run_eval_phase(self, statistics):
     """Run evaluation phase.
-
     Args:
       statistics: `IterationStatistics` object which records the experimental
         results. Note - This object is modified by this method.
-
     Returns:
       num_episodes: int, The number of episodes run in this phase.
       average_reward: float, The average reward generated in this phase.
@@ -673,11 +670,9 @@ class Runner(object):
 
   def _run_generic_phase(self, statistics, name):
     """Run evaluation phase.
-
     Args:
       statistics: `IterationStatistics` object which records the experimental
         results. Note - This object is modified by this method.
-
     Returns:
       num_episodes: int, The number of episodes run in this phase.
       average_reward: float, The average reward generated in this phase.
@@ -714,15 +709,12 @@ class Runner(object):
 
   def _run_one_iteration(self, iteration, firstiteration):
     """Runs one iteration of agent/environment interaction.
-
     An iteration involves running several episodes until a certain number of
     steps are obtained. The interleaving of train/eval phases implemented here
     are to match the implementation of (Mnih et al., 2015).
-
     Args:
       iteration: int, current iteration number, used as a global_step for saving
         Tensorboard summaries.
-
     Returns:
       A dict containing summary statistics for this iteration.
     """
@@ -771,7 +763,7 @@ class Runner(object):
       self.counter=0
       self.player1_turn_training=not self.player1_turn_training
     
-    if iteration<50:
+    if iteration<50000:
       num_episodes_train, average_reward_train = self._run_generic_phase(
         statistics,'train1')
     
@@ -839,7 +831,7 @@ class Runner(object):
       else:
         self.counter=0
     
-    if iteration<50:
+    if iteration<50000:
       self._my_checkpoint_experiment(iteration, 'latest', 1)
       self.latest1=iteration
       self._my_checkpoint_experiment(iteration, 'latest', 2)
@@ -896,7 +888,6 @@ class Runner(object):
                                   num_episodes_eval,
                                   average_reward_eval):
     """Save statistics as tensorboard summaries.
-
     Args:
       iteration: int, The current iteration number.
       num_episodes_train: int, number of training episodes run.
@@ -917,7 +908,6 @@ class Runner(object):
     self._summary_writer.add_summary(summary, iteration)
   def _log_experiment(self, iteration, statistics):
     """Records the results of the current iteration.
-
     Args:
       iteration: int, iteration number.
       statistics: `IterationStatistics` object containing statistics to log.
@@ -929,7 +919,6 @@ class Runner(object):
 
   def _my_checkpoint_experiment(self,  iteration, folder_type, player):
     """Checkpoint experiment data.
-
     Args:
       iteration: int, iteration number for checkpointing.
     """
@@ -964,7 +953,6 @@ class Runner(object):
     
   def _checkpoint_experiment(self, iteration):
     """Checkpoint experiment data.
-
     Args:
       iteration: int, iteration number for checkpointing.
     """
@@ -1009,7 +997,6 @@ class Runner(object):
 @gin.configurable
 class TrainRunner(Runner):
   """Object that handles running experiments.
-
   The `TrainRunner` differs from the base `Runner` class in that it does not
   the evaluation phase. Checkpointing and logging for the train phase are
   preserved as before.
@@ -1018,7 +1005,6 @@ class TrainRunner(Runner):
   def __init__(self, base_dir, create_agent_fn,
                create_environment_fn=atari_lib.create_atari_environment):
     """Initialize the TrainRunner object in charge of running a full experiment.
-
     Args:
       base_dir: str, the base directory to host all required sub-directories.
       create_agent_fn: A function that takes as args a Tensorflow session and an
@@ -1034,15 +1020,12 @@ class TrainRunner(Runner):
 
   def _run_one_iteration(self, iteration):
     """Runs one iteration of agent/environment interaction.
-
     An iteration involves running several episodes until a certain number of
     steps are obtained. This method differs from the `_run_one_iteration` method
     in the base `Runner` class in that it only runs the train phase.
-
     Args:
       iteration: int, current iteration number, used as a global_step for saving
         Tensorboard summaries.
-
     Returns:
       A dict containing summary statistics for this iteration.
     """
